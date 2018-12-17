@@ -1,3 +1,10 @@
 .container{
     background: dodgerblue;
 }
+.row div:nth-child(odd){
+    background: limegreen;
+}
+
+.row div:nth-child(even){
+    background: blueviolet;
+}
